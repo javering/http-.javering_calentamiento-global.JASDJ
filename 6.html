@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Inicio</title>
+	<meta charset="utf-8">
+	<meta name="author" content="Juan Alfonso">
+	
+	<style>
+*{margin:0; padding:0;}
+html{background-color:#FF00FF;}
+
+
+
+body {width:100%;height:100%;margin:auto;
+background-color:white;}
+
+header{width:100%;height:100%;float:left;background-color:#000080;}
+
+aside#baner{width:55%; height:290px;float:left; background-color:red;}
+
+aside#beid{width:45%;height:290px;float:right;background-color:#00ff00;}
+
+nav{width:100%;height:200px;background-color:#ff00ff;}
+
+main{width:100%;height:100%;background-color:#00ffff;}
+ul, ol {
+     list-style: none;
+	}
+
+
+.slider {
+	margin: auto;
+	overflow: hidden;
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 600%;
+	height: 100%;
+	animation: animaciones 20s infinite alternate;
+}
+
+.slider li {
+	list-style: none;
+	width: 200%;
+	height: 450%
+}
+
+.slider img {
+	width: 200%;
+	height:290px;
+}
+
+@keyframes animaciones {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+.date {
+display: 
+inline:block;
+}
+a {
+	text-decoration: none;
+	outline: none;
+}
+nav {
+     text-decoration: none;
+	 }
+
+a:hover {
+	text-decoration: underline;
+}
+
+
+.navbar {
+	background: blue;
+}
+
+.navbar a {
+	color: red;
+	display: underline-block;
+	padding: 20px;
+	width: 100%;
+	text-align: center;
+	color: #000;
+	transition: .3s ease-out all;
+}
+
+.navbar a:hover {
+	background: red;
+	color: #fff;
+	text-decoration: none;
+}
+
+.contenedor {
+	max-width: 1000px;
+	width: 90%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.contenedor-imagen {
+	height: 100vh;
+}
+
+.contenedor-imagen img {
+	width: 100%;
+	height: 100%;
+	vertical-align: top;
+	object-fit: cover;
+	object-position: 0 bottom;
+}
+
+
+
+@media screen and (max-width: 900px){
+	.navbar .contenedor {
+		flex-wrap: wrap;
+		margin: 0;
+		width: 100%;
+	}
+
+	.navbar a {
+		width: auto;
+		flex: 1;
+	}
+
+	.contenedor-imagen {
+		height: 50vh;
+	}
+
+	main .contenedor {
+		flex-direction: column;
+	}
+}
+
+footer{width:100%;height:30px;background-color:blue;}
+</style>
+</head>
+
+<body>
+<header>
+<aside id="baner">
+<body background-color: black; marginwidth="50">
+<h1 aling="center">
+   <h3> <font color="black" size="24" face"Arial"></h3>
+	<center> 
+	<strong>CSS Y HTML</strong>
+	</center>
+	<div class="navbar">
+     <div class="contenedor">
+	 <span class="date">
+	 
+      <font color="blue" size="2" face"Arial
+	      <div class="menu">
+			 <a href="maquetacion.html">INICIO</a></li></div>
+			 <div ="submenu">
+			 <a href="aprendiendo.html"float:left;>Aprendiendo</a></li>
+	                  <li>  <a href="quees.html">¿Que es?</a></li>
+                      <li>  <a href="conceptos.html">Conceptos basicos</a></li>
+	                  <li>  <a href="1.html">Cómo aplicar propiedades a una clase o identificador</a></li>
+	                  <li>  <a href="2.html">Un poco de HTML</a></li>
+	                  <li>  <a href="4.html">Cómo aplicar propiedades a una etiqueta HTML </a></li>
+	                  <li>  <a href="5.html">Cómo obtener el nombre o selector de un elemento de tu web </a></li>
+	                  <li>  <a href="6.html">Cómo y dónde añadir código CSS para definir y modificar estilos de tu web </a></li>
+	                  <li>  <a href="7.html">Cómo es una hoja de estilos CSS </a></li>
+	                  <li>  <a href="8.html">Códigos CSS más usados </a></li>
+	                  <li>  <a href="9.html">Códigos CSS para mejorar tu web </a></li>
+
+   </div>
+</span>
+</div>
+</div>
+
+
+	</font>
+</h1>
+</aside>
+<article></article>
+<aside id="beid">
+<div class="slider">
+	<ul>
+		<li><img src="imagen1.JPG" width:300%; height:200px;></img>
+		<li><img src="imagen2.JPG" width:300%; height:250px;></img>
+		<li><img src="imagen3.JPG" width:300%; height:250px;></img>
+		<li><img src="imagen4.JPG" width:300%; height:250px;></img>
+		<li><img src="imagen5.PNG" width:300%; height:250px;></img>
+		<li><img src="imagen6.JPG" width:300%; height:250px;></img>
+		
+	</ul>
+</div>
+</aside>
+
+</header>
+</body>
+<nav>
+</nav>
+<main>
+<body background-color: black; marginwidth="50">
+<h1 aling="center">
+    <font color="black" size="6" face"Britannic Bold">
+	<center> <h2>Mediante la hoja de estilos</h2>
+	<h3>Todas las webs tienen una hoja de estilos donde se definen las propiedades para todos los elementos de la web. Normalmente las propiedades se aplican a etiquetas HTML, clases e identificadores. Las hojas de estilos son archivos de extensión .css que tienes subido en tu servidor junto con el resto de archivos de tu web.
+
+<p>Hay hojas de estilo generales donde están definidos casi todos los estilos globales de la web, que suelen llamarse styles.css o stylesheet.css. También hay hojas de estilo secundarias para cosas concretas. Lo ideal es que no tengas muchas, sino que todo esté definido en unas pocas para mejorar el tiempo de carga del sitio y facilitarte poder modificarlas luego.
+<h1>>Cómo editar la hoja de estilos</h1>
+<p>Directamente en la hoja de estilos original (modo menos recomendable)
+
+<p>Lo primero es acceder al archivo de hoja de estilos .css mediante tu FTP o administrador de archivos de tu hosting. Una vez lo localices (en WordPress suele estar dentro de la carpeta principal del tema en una ruta parecida a esta: wp-content/themes/nombredeltema/css/styles.css), puedes editar directamente la hoja mediante editores como Dreamweaver, Coda, etc.
+
+<p>Los hostings te suelen dejar que edites directamente las hojas de estilos. Ten cuidado al hacerlo, te recomiendo hacer una copia previa. Si modificas algo y no sabes qué es lo que has tocado puedes estropear los estilos del sitio. Es por esto que este modo lo he marcado como menos recomendable, ya que requiere ser un poco más experto y además puede provocar algún accidente 🙂
+
+<p>También puedes acceder a los archivos de tu plantilla desde dentro de tu Escritorio de WordPress, en Apariencia > Editor. Como en el caso anterior, no es recomendable editar desde aquí ya que estarías modificando directamente los archivos y esto podría generar problemas en caso de que borres algo por error.
+<h1>Con tu plantilla o con un plugin</h1> <h2>(modo más recomendable)</h2>
+
+<p>Este modo es más aconsejable ya que lo que modificas lo haces desde fuera, sin tocar la hoja de estilos original, de modo que en caso de equivocarte te bastaría con borrar el código que hayas escrito o desactivar el plugin.
+
+<p>Hay plantillas premium que incluyen una zona que suele llamarse Custom CSS o Custom Code donde puedes añadir tus propios estilos CSS a la hoja original de la plantilla. Esto suele encontrarse, en las Theme Options de tu plantilla, en alguna sección General o en una sección CSS.
+
+<p>Si tu plantilla no incluye una zona donde puedas añadir código CSS, puedes hacerlo fácilmente mediante un plugin como Simple Custom CSS. Al instalarlo y activarlo, en Apariencia tendrás una pestaña llamada Custom CSS o CSS personalizado.
+</font>
+</h3>
+<br>
+<center><img src="https://aulacm.com/wp-content/uploads/2016/04/codigos-wordpress-42.svg" alt="codigos-wordpress-42.svg"width:100%; height:250px;></center>
+
+<article></article>
+
+</main>
+<footer></footer>
+
+</html>

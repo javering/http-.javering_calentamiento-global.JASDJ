@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Inicio</title>
+	<meta charset="utf-8">
+	<meta name="author" content="Juan Alfonso">
+	
+	<style>
+*{margin:0; padding:0;}
+html{background-color:#FF00FF;}
+
+
+
+body {width:100%;height:100%;margin:auto;
+background-color:white;}
+
+header{width:100%;height:100%;float:left;background-color:#000080;}
+
+aside#baner{width:55%; height:290px;float:left; background-color:red;}
+
+aside#beid{width:45%;height:100%;float:right;background-color:#00ff00;}
+
+nav{width:100%;height:200px;background-color:#ff00ff;}
+
+main{width:100%;height:100%;background-color:#00ffff;}
+ul, ol {
+     list-style: none;
+	}
+
+
+.slider {
+	margin: auto;
+	overflow: hidden;
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 600%;
+	height: 100%;
+	animation: animaciones 20s infinite alternate;
+}
+
+.slider li {
+	list-style: none;
+	width: 200%;
+	height: 450%
+}
+
+.slider img {
+	width: 200%;
+	height:290px;
+}
+
+@keyframes animaciones {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+.date {
+display: 
+inline:block;
+}
+a {
+	text-decoration: none;
+	outline: none;
+}
+nav {
+     text-decoration: none;
+	 }
+
+a:hover {
+	text-decoration: underline;
+}
+
+
+.navbar {
+	background: blue;
+}
+
+.navbar a {
+	color: red;
+	display: underline-block;
+	padding: 20px;
+	width: 100%;
+	text-align: center;
+	color: #000;
+	transition: .3s ease-out all;
+}
+
+.navbar a:hover {
+	background: red;
+	color: #fff;
+	text-decoration: none;
+}
+
+.contenedor {
+	max-width: 1000px;
+	width: 90%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.contenedor-imagen {
+	height: 100vh;
+}
+
+.contenedor-imagen img {
+	width: 100%;
+	height: 100%;
+	vertical-align: top;
+	object-fit: cover;
+	object-position: 0 bottom;
+}
+
+
+
+@media screen and (max-width: 900px){
+	.navbar .contenedor {
+		flex-wrap: wrap;
+		margin: 0;
+		width: 100%;
+	}
+
+	.navbar a {
+		width: auto;
+		flex: 1;
+	}
+
+	.contenedor-imagen {
+		height: 50vh;
+	}
+
+	main .contenedor {
+		flex-direction: column;
+	}
+}
+
+footer{width:100%;height:30px;background-color:blue;}
+</style>
+</head>
+
+<body>
+<header>
+<aside id="baner">
+<body background-color: black; marginwidth="50">
+<h1 aling="center">
+   <h3> <font color="black" size="24" face"Arial"></h3>
+	<center> 
+	<strong>CSS Y HTML</strong>
+	</center>
+	<div class="navbar">
+     <div class="contenedor">
+	 <span class="date">
+	 
+      <font color="blue" size="2" face"Arial
+	      <div class="menu">
+			 <a href="maquetacion.html">INICIO</a></li></div>
+			 <div ="submenu">
+			 <a href="aprendiendo.html"float:left;>Aprendiendo</a></li>
+	                  <li>  <a href="quees.html">¿Que es?</a></li>
+                      <li>  <a href="conceptos.html">Conceptos basicos</a></li>
+	                  <li>  <a href="1.html">Cómo aplicar propiedades a una clase o identificador</a></li>
+	                  <li>  <a href="2.html">Un poco de HTML</a></li>
+	                  <li>  <a href="4.html">Cómo aplicar propiedades a una etiqueta HTML </a></li>
+	                  <li>  <a href="5.html">Cómo obtener el nombre o selector de un elemento de tu web </a></li>
+	                  <li>  <a href="6.html">Cómo y dónde añadir código CSS para definir y modificar estilos de tu web </a></li>
+	                  <li>  <a href="7.html">Cómo es una hoja de estilos CSS </a></li>
+	                  <li>  <a href="8.html">Códigos CSS más usados </a></li>
+	                  <li>  <a href="9.html">Códigos CSS para mejorar tu web </a></li>
+
+   </div>
+</span>
+</div>
+</div>
+
+
+	</font>
+</h1>
+</aside>
+<article></article>
+<aside id="beid">
+<div class="slider">
+	<ul>
+		<li><img src="imagen1.JPG" width:300%; height:200px;></img>
+		<li><img src="imagen2.JPG" width:300%; height:250px;></img>
+		<li><img src="imagen3.JPG" width:300%; height:250px;></img>
+		<li><img src="imagen4.JPG" width:300%; height:250px;></img>
+		<li><img src="imagen5.PNG" width:300%; height:250px;></img>
+		<li><img src="imagen6.JPG" width:300%; height:250px;></img>
+		
+	</ul>
+</div>
+</aside>
+
+</header>
+</body>
+<nav></nav>
+<main>
+<body background-color: black; marginwidth="50">
+<h1 aling="center">
+    <font color="black" size="6" face"Britannic Bold">
+	<center> 
+	<h1><strong>Qué es CSS y para qué sirve</strong></h1></center>
+	<p><strong>CSS es un código que funciona junto a HTML y sirve para modificar todo lo relacionado con el estilo, es decir, colores, tipografías, tamaños, etc.
+
+Por ejemplo, mediante una regla CSS puedo redefinir el estilo de todas las etiquetas h1 (títulos 1 de mi web) para que a partir de ahora tengan un tamaño de 36 píxeles, color negro y tipografía Open Sans. El modo de hacerlo sería colocando el siguiente código en la hoja de estilos CSS: </strong>	<p><strong>h1 {
+<p>font-size: 36px;
+<p>color: #000;
+<p>font-family: 'Open Sans';
+<p>}
+<p><strong>Con CSS también puedes hacer desaparecer los elementos de tu plantilla que quieras quitar introduciendo una simple línea de código. Lo verás en este post un poco más adelante.</strong></p>
+<p><strong>Además con CSS puedes personalizar por completo el comportamiento responsive de tu plantilla, es decir, que se vea como quieras en cada dispositivo.</strong></p>
+<h1><strong>Qué es HTML y para qué sirve</strong></h1>
+<p><strong>A grandes rasgos podemos decir que HTML es un código que sirve para crear la estructura básica de un sitio web, cabecera, contenido, pie de página, barras laterales, etc. Funciona mediante etiquetas predefinidas a las que puedes modificar sus estilos mediante CSS.
+
+Por tanto, se podría decir que el código CSS sirve para modificar y personalizar el HTML.</strong></p>
+<p><strong>Aprender HTML y CSS no es difícil, con un poco de práctica y usando la lógica vas a poder convertir una plantilla básica en una web profesional, a pesar de que tu plantilla no incluya muchas opciones de personalización.</strong></p>
+<p><strong>Pon mucha atención a la explicación inicial en la que te voy a enseñar a seleccionar los elementos de tu web para luego poder modificarlos en tu hoja de estilos.</strong></p>
+<p><strong></strong></p>
+	</font>
+</h1>
+<br>
+<center>
+<img class="rg_i Q4LuWd" src="data:image/jpeg;base64,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" data-deferred="1" jsname="Q4LuWd" data-index="0" alt="Hola Mundo! en HTML - ▷ Cursos de Programación de 0 a Experto © Garantizados" data-iml="1534" data-atf="true" width="400" height="250">
+</center>
+
+<article></article>
+
+</main>
+<footer></footer>
+
+</html>

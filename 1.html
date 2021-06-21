@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Inicio</title>
+	<meta charset="utf-8">
+	<meta name="author" content="Juan Alfonso">
+	
+	<style>
+*{margin:0; padding:0;}
+html{background-color:#FF00FF;}
+
+
+
+body {width:100%;height:100%;margin:auto;
+background-color:white;}
+
+header{width:100%;height:100%;float:left;background-color:#000080;}
+
+aside#baner{width:55%; height:290px;float:left; background-color:red;}
+
+aside#beid{width:45%;height:100%;float:right;background-color:#00ff00;}
+
+nav{width:100%;height:200px;background-color:#ff00ff;}
+
+main{width:100%;height:100%;background-color:#00ffff;}
+ul, ol {
+     list-style: none;
+	}
+
+
+.slider {
+	margin: auto;
+	overflow: hidden;
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 600%;
+	height: 100%;
+	animation: animaciones 20s infinite alternate;
+}
+
+.slider li {
+	list-style: none;
+	width: 200%;
+	height: 450%
+}
+
+.slider img {
+	width: 200%;
+	height:290px;
+}
+
+@keyframes animaciones {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+.date {
+display: 
+inline:block;
+}
+a {
+	text-decoration: none;
+	outline: none;
+}
+nav {
+     text-decoration: none;
+	 }
+
+a:hover {
+	text-decoration: underline;
+}
+
+
+.navbar {
+	background: blue;
+}
+
+.navbar a {
+	color: red;
+	display: underline-block;
+	padding: 20px;
+	width: 100%;
+	text-align: center;
+	color: #000;
+	transition: .3s ease-out all;
+}
+
+.navbar a:hover {
+	background: red;
+	color: #fff;
+	text-decoration: none;
+}
+
+.contenedor {
+	max-width: 1000px;
+	width: 90%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.contenedor-imagen {
+	height: 100vh;
+}
+
+.contenedor-imagen img {
+	width: 100%;
+	height: 100%;
+	vertical-align: top;
+	object-fit: cover;
+	object-position: 0 bottom;
+}
+
+
+
+@media screen and (max-width: 900px){
+	.navbar .contenedor {
+		flex-wrap: wrap;
+		margin: 0;
+		width: 100%;
+	}
+
+	.navbar a {
+		width: auto;
+		flex: 1;
+	}
+
+	.contenedor-imagen {
+		height: 50vh;
+	}
+
+	main .contenedor {
+		flex-direction: column;
+	}
+}
+
+footer{width:100%;height:30px;background-color:blue;}
+</style>
+</head>
+
+<body>
+<header>
+<aside id="baner">
+<body background-color: black; marginwidth="50">
+<h1 aling="center">
+   <h3> <font color="black" size="24" face"Arial"></h3>
+	<center> 
+	<strong>CSS Y HTML</strong>
+	</center>
+	<div class="navbar">
+     <div class="contenedor">
+	 <span class="date">
+	 
+      <font color="blue" size="2" face"Arial
+	      <div class="menu">
+			 <a href="maquetacion.html">INICIO</a></li></div>
+			 <div ="submenu">
+			 <a href="aprendiendo.html"float:left;>Aprendiendo</a></li>
+	                  <li>  <a href="quees.html">¿Que es?</a></li>
+                      <li>  <a href="conceptos.html">Conceptos basicos</a></li>
+	                  <li>  <a href="1.html">Cómo aplicar propiedades a una clase o identificador</a></li>
+	                  <li>  <a href="2.html">Un poco de HTML</a></li>
+	                  <li>  <a href="4.html">Cómo aplicar propiedades a una etiqueta HTML </a></li>
+	                  <li>  <a href="5.html">Cómo obtener el nombre o selector de un elemento de tu web </a></li>
+	                  <li>  <a href="6.html">Cómo y dónde añadir código CSS para definir y modificar estilos de tu web </a></li>
+	                  <li>  <a href="7.html">Cómo es una hoja de estilos CSS </a></li>
+	                  <li>  <a href="8.html">Códigos CSS más usados </a></li>
+	                  <li>  <a href="9.html">Códigos CSS para mejorar tu web </a></li>
+
+   </div>
+</span>
+</div>
+</div>
+
+
+	</font>
+</h1>
+</aside>
+<article></article>
+<aside id="beid">
+<div class="slider">
+	<ul>
+		<li><img src="imagen1.JPG" width:300%; height:200px;></img>
+		<li><img src="imagen2.JPG" width:300%; height:250px;></img>
+		<li><img src="imagen3.JPG" width:300%; height:250px;></img>
+		<li><img src="imagen4.JPG" width:300%; height:250px;></img>
+		<li><img src="imagen5.PNG" width:300%; height:250px;></img>
+		<li><img src="imagen6.JPG" width:300%; height:250px;></img>
+		
+	</ul>
+</div>
+</aside>
+
+</header>
+</body>
+<nav></nav>
+<main>
+<body background-color: black; marginwidth="50">
+<h1 aling="center">
+    <font color="black" size="6" face"Britannic Bold">
+	<center> 
+	
+
+Siguiendo el ejemplo anterior, el código quedaría expresado así en la hoja de estilos CSS:
+
+<h1>#boton {
+background-color: #ccc;
+color: #fff;
+width: 100px;
+padding: 20px;
+border: 1px solid #000;
+border-radius: 5px;
+}
+</h1>
+ 
+
+Es decir, estamos asignando una serie de propiedades de color, ancho, relleno, borde a todos los botones del sitio que tengan asignado el id #boton.
+
+El selector o nombre va precedido de punto (.) o almohadilla (#) según sea una clase o identificador y a continuación entre {} se colocan las propiedades y sus valores.
+
+Más adelante te voy a poner un listado de las propiedades más usadas actualmente en las webs para que las puedas aplicar en la tuya propia.
+	</font>
+</h1>
+<br>
+<center><img data-ils="4" jsaction="rcuQ6b:trigger.M8vzZb;" class="rg_i Q4LuWd" jsname="Q4LuWd" data-index="104" alt="Lenguajes de programación: HTML, CSS y JavaScript" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1J4Xr8kBFBmLqjNNa71glWkIMy5ZoVi_PjA&amp;usqp=CAU" width="600" height="300"></center>
+<article></article>
+
+</main>
+<footer></footer>
+
+</html>

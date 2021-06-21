@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Inicio</title>
+	<meta charset="utf-8">
+	<meta name="author" content="Juan Alfonso">
+	
+	<style>
+*{margin:0; padding:0;}
+html{background-color:#FF00FF;}
+
+
+
+body {width:100%;height:100%;margin:auto;
+background-color:white;}
+
+header{width:100%;height:100%;float:left;background-color:#000080;}
+
+aside#baner{width:55%; height:290px;float:left; background-color:red;}
+
+aside#beid{width:45%;height:290px;float:right;background-color:#00ff00;}
+
+nav{width:100%;height:200px;background-color:#ff00ff;}
+
+main{width:100%;height:100%;background-color:#00ffff;}
+ul, ol {
+     list-style: none;
+	}
+
+
+.slider {
+	margin: auto;
+	overflow: hidden;
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 600%;
+	height: 100%;
+	animation: animaciones 20s infinite alternate;
+}
+
+.slider li {
+	list-style: none;
+	width: 200%;
+	height: 450%
+}
+
+.slider img {
+	width: 200%;
+	height:290px;
+}
+
+@keyframes animaciones {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+.date {
+display: 
+inline:block;
+}
+a {
+	text-decoration: none;
+	outline: none;
+}
+nav {
+     text-decoration: none;
+	 }
+
+a:hover {
+	text-decoration: underline;
+}
+
+
+.navbar {
+	background: blue;
+}
+
+.navbar a {
+	color: red;
+	display: underline-block;
+	padding: 20px;
+	width: 100%;
+	text-align: center;
+	color: #000;
+	transition: .3s ease-out all;
+}
+
+.navbar a:hover {
+	background: red;
+	color: #fff;
+	text-decoration: none;
+}
+
+.contenedor {
+	max-width: 1000px;
+	width: 90%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.contenedor-imagen {
+	height: 100vh;
+}
+
+.contenedor-imagen img {
+	width: 100%;
+	height: 100%;
+	vertical-align: top;
+	object-fit: cover;
+	object-position: 0 bottom;
+}
+
+
+
+@media screen and (max-width: 900px){
+	.navbar .contenedor {
+		flex-wrap: wrap;
+		margin: 0;
+		width: 100%;
+	}
+
+	.navbar a {
+		width: auto;
+		flex: 1;
+	}
+
+	.contenedor-imagen {
+		height: 50vh;
+	}
+
+	main .contenedor {
+		flex-direction: column;
+	}
+}
+
+footer{width:100%;height:30px;background-color:blue;}
+</style>
+</head>
+
+<body>
+<header>
+<aside id="baner">
+<body background-color: black; marginwidth="50">
+<h1 aling="center">
+   <h3> <font color="black" size="24" face"Arial"></h3>
+	<center> 
+	<strong>CSS Y HTML</strong>
+	</center>
+	<div class="navbar">
+     <div class="contenedor">
+	 <span class="date">
+	 
+      <font color="blue" size="2" face"Arial
+	      <div class="menu">
+			 <a href="maquetacion.html">INICIO</a></li></div>
+			 <div ="submenu">
+			 <a href="aprendiendo.html"float:left;>Aprendiendo</a></li>
+	                  <li>  <a href="quees.html">¿Que es?</a></li>
+                      <li>  <a href="conceptos.html">Conceptos basicos</a></li>
+	                  <li>  <a href="1.html">Cómo aplicar propiedades a una clase o identificador</a></li>
+	                  <li>  <a href="2.html">Un poco de HTML</a></li>
+	                  <li>  <a href="4.html">Cómo aplicar propiedades a una etiqueta HTML </a></li>
+	                  <li>  <a href="5.html">Cómo obtener el nombre o selector de un elemento de tu web </a></li>
+	                  <li>  <a href="6.html">Cómo y dónde añadir código CSS para definir y modificar estilos de tu web </a></li>
+	                  <li>  <a href="7.html">Cómo es una hoja de estilos CSS </a></li>
+	                  <li>  <a href="8.html">Códigos CSS más usados </a></li>
+	                  <li>  <a href="9.html">Códigos CSS para mejorar tu web </a></li>
+
+   </div>
+</span>
+</div>
+</div>
+
+
+	</font>
+</h1>
+</aside>
+<article></article>
+<aside id="beid">
+<div class="slider">
+	<ul>
+		<li><img src="imagen1.JPG" width:300%; height:200px;></img>
+		<li><img src="imagen2.JPG" width:300%; height:250px;></img>
+		<li><img src="imagen3.JPG" width:300%; height:250px;></img>
+		<li><img src="imagen4.JPG" width:300%; height:250px;></img>
+		<li><img src="imagen5.PNG" width:300%; height:250px;></img>
+		<li><img src="imagen6.JPG" width:300%; height:250px;></img>
+		
+	</ul>
+</div>
+</aside>
+
+</header>
+</body>
+<nav>
+</nav>
+<main>
+<body background-color: black; marginwidth="50">
+<h1 aling="center">
+    <font color="black" size="6" face"Britannic Bold">
+	<center> 
+	<h1>A continuación te voy a mostrar los códigos CSS más usados en webs y que tú mismo puedes aplicar en la tuya para que consigas personalizarla al máximo. Los he clasificado según sirvan para modificar elementos de texto, elementos gráficos (cajas, fondos, botones, etc) y otro tipo de elementos.
+Para textos
+
+<h3><Las propiedades y sus atributos más comunes para modificar la apariencia de tus textos web son las siguientes:</h3>
+<h2>
+    <p>font-family: Establece una familia o fuente tipográfica.
+    <p>font-style: Estilo normal, cursiva u oblicua. Atributos [ normal | italic | oblique ]
+    <p>font-variant: Convierte las minúsculas en mayúsculas pero en tamaño menor. Atributos [ normal | small-caps ]
+    <p>font-weight: Grosor de la tipografía especificado en medidas de 100 a 900.
+    <p>font-size: tamaño o cuerpo de letra especificado en píxeles (px).
+    <p>text-indent: cantidad de desplazamiento lateral de la primera línea del texto, expresado en px.
+    <p>text-align: alineación del texto. Atributos [ left | right | center | justify ]
+    <p>text-decoration: aplica efectos de subrayado, tachado, parpadeo. Atributos [ none | [ underline || overline || line-through || blink ] ]
+    <p>letter-spacing: espaciado entre caracteres especificado en px.
+    <p>text-transform: para transformar los textos a mayúsculas o minúsculas [ capitalize | uppercase | lowercase | none ].
+    <p>line-height: interlineado entre renglones de texto expresado en px.
+    <p>vertical-align: alineación vertical del texto. Atributos [ baseline | sub | super | top | text-top | middle | bottom | text-bottom | <porcentaje> | <longitud> ]
+</h2>
+ 
+<h1>Para elementos gráficos de la web</h1>
+<h2>
+   <p> width: ancho de un elemento o imagen. Puede definirse en píxeles (px), unidades em (em) y porcentajes (%).
+   <p> Ej.: #content {width:960px;}
+   <p> height: altura de un elemento o imagen. Igual que la anterior.
+   <p> Ej.: #header {height: 250px;}
+   <p> background-color: color de fondo de un elemento. Se expresa en valor hexadecimal con # y seis caracteres. Ej.: #boton {background-color: #1CBACC;}
+   <p> background-image: imagen de fondo para un elemento.
+   <p> Ej.: #content {background-image: url(«https://www.aulacm.com/fondo.jpg);}
+   <p> background-repeat: repetición o no de la imagen dentro del fondo (ideal para crear patterns o fondos con texturas). Se puede repetir en x (en horizontal) o en y (en vertical).
+   <p> Ej.: #content {background-repeat: repeat-x;}
+   <p>background-position: posición de la imagen dentro del fondo. Se puede definir al centro, izquierda o derecha. También con píxeles y porcentajes.
+   <p> Ej.: #content {background-position: center;}
+   <p> border: borde de un elemento o imagen. Tiene 3 parámetros: tipo de borde (liso, punteado, rayas, etc), grosor (expresado en píxeles) y color (expresado en valor hexadecimal). También puede definirse sin borde (none).
+   <p> Ej.: #boton {border: solid 1px #000000}
+   <p> display: modo en que se muestra un elemento o imagen o no mostrarlo nunca. Tiene diversos valores, los más comunes son: mostrar elementos en bloque (block),
+   <p> z-index: posición de un elemento o imagen en el eje z (para poner elementos tapando a otros elementos)
+
+ 
+<h2>Para añadir espacios o márgenes</h2>
+
+    <h3>margin: margen a partir de un elemento hacia afuera expresado en px. Suele empujar a otros elementos cercanos</h3>
+    <h3>padding: relleno o espacio interior desde el borde de un elemento hacia dentro. Ampliar padding suele arrastrar hacia fuera los bordes y por consiguiente aumenta el tamaño del elemento</h3>
+
+<p>En sendos casos, puedes expresar el valor en píxeles pero también en porcentajes. Los porcentajes son ideales para definir espacios proporcionales, de modo que no haya una distancia fija entre elementos, sino que en función del tamaño de la pantalla o dispositivo, los elementos se coloquen proporcionalmente.
+
+<p>Esta es la clave para definir tamaños de elementos que sean responsive (que se adapten automáticamente a todos los dipositivos). De este modo, una caja con un ancho (width) al 100% siempre ocupará el 100% de la pantalla, ya sea una pantalla grande o un smartphone.
+
+<p><Además, tanto el margin como el padding pueden definirse para una dirección concreta arriba, derecha, abajo o izquierda:
+
+   <h2> <p>margin-top: margen hacia arriba
+   <p> margin-right: margen hacia la derecha
+   <p> margin-bottom: margen hacia abajo
+   <p> margin-left: margen hacia la izquierda
+   <p> padding-top: relleno desde arriba hacia adentro
+   <p> padding-right: relleno desde la derecha hacia adentro
+   <p> padding-bottom: relleno desde abajo hacia adentro
+   <p> padding-left: relleno desde la izquierda hacia adentro</h2>
+
+<h3>Nota: Puedes especificar márgenes y rellenos en las cuatro direcciones sin necesidad de declararlos por separado. Basta con que dentro de la propiedad general escribas las cuatro direcciones todas seguidas y en el sentido de las agujas del reloj. Por ejemplo, si quieres poner a un elemento #boton un margen de 20 píxeles por arriba, 0 por la derecha, 20 por abajo y 5 por la izquierda, puedes escribir lo siguiente:</h3>
+
+<p>#boton {
+<p>margin: 20px 0 20px 5px;
+<p>}
+</font>
+</h1>
+<br>
+<center><img src="https://aulacm.com/wp-content/uploads/2016/04/codigos-wordpress-42.svg" alt="codigos-wordpress-42.svg"width:100%; height:250px;></center>
+
+<article></article>
+
+</main>
+<footer></footer>
+
+</html>

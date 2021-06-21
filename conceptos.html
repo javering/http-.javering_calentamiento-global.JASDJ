@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Inicio</title>
+	<meta charset="utf-8">
+	<meta name="author" content="Juan Alfonso">
+	
+	<style>
+*{margin:0; padding:0;}
+html{background-color:#FF00FF;}
+
+
+
+body {width:100%;height:100%;margin:auto;
+background-color:white;}
+
+header{width:100%;height:100%;float:left;background-color:#000080;}
+
+aside#baner{width:55%; height:290px;float:left; background-color:red;}
+
+aside#beid{width:45%;height:100%;float:right;background-color:#00ff00;}
+
+nav{width:100%;height:200px;background-color:#ff00ff;}
+
+main{width:100%;height:100%;background-color:#00ffff;}
+ul, ol {
+     list-style: none;
+	}
+
+
+.slider {
+	margin: auto;
+	overflow: hidden;
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 600%;
+	height: 100%;
+	animation: animaciones 20s infinite alternate;
+}
+
+.slider li {
+	list-style: none;
+	width: 200%;
+	height: 450%
+}
+
+.slider img {
+	width: 200%;
+	height:290px;
+}
+
+@keyframes animaciones {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+.date {
+display: 
+inline:block;
+}
+a {
+	text-decoration: none;
+	outline: none;
+}
+nav {
+     text-decoration: none;
+	 }
+
+a:hover {
+	text-decoration: underline;
+}
+
+
+.navbar {
+	background: blue;
+}
+
+.navbar a {
+	color: red;
+	display: underline-block;
+	padding: 20px;
+	width: 100%;
+	text-align: center;
+	color: #000;
+	transition: .3s ease-out all;
+}
+
+.navbar a:hover {
+	background: red;
+	color: #fff;
+	text-decoration: none;
+}
+
+.contenedor {
+	max-width: 1000px;
+	width: 90%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.contenedor-imagen {
+	height: 100vh;
+}
+
+.contenedor-imagen img {
+	width: 100%;
+	height: 100%;
+	vertical-align: top;
+	object-fit: cover;
+	object-position: 0 bottom;
+}
+
+
+
+@media screen and (max-width: 900px){
+	.navbar .contenedor {
+		flex-wrap: wrap;
+		margin: 0;
+		width: 100%;
+	}
+
+	.navbar a {
+		width: auto;
+		flex: 1;
+	}
+
+	.contenedor-imagen {
+		height: 50vh;
+	}
+
+	main .contenedor {
+		flex-direction: column;
+	}
+}
+
+footer{width:100%;height:30px;background-color:blue;}
+</style>
+</head>
+
+<body>
+<header>
+<aside id="baner">
+<body background-color: black; marginwidth="50">
+<h1 aling="center">
+   <h3> <font color="black" size="24" face"Arial"></h3>
+	<center> 
+	<strong>CSS Y HTML</strong>
+	</center>
+	<div class="navbar">
+     <div class="contenedor">
+	 <span class="date">
+	 
+      <font color="blue" size="2" face"Arial
+	      <div class="menu">
+			 <a href="maquetacion.html">INICIO</a></li></div>
+			 <div ="submenu">
+			 <a href="aprendiendo.html"float:left;>Aprendiendo</a></li>
+	                  <li>  <a href="quees.html">¿Que es?</a></li>
+                      <li>  <a href="conceptos.html">Conceptos basicos</a></li>
+	                  <li>  <a href="1.html">Cómo aplicar propiedades a una clase o identificador</a></li>
+	                  <li>  <a href="2.html">Un poco de HTML</a></li>
+	                  <li>  <a href="4.html">Cómo aplicar propiedades a una etiqueta HTML </a></li>
+	                  <li>  <a href="5.html">Cómo obtener el nombre o selector de un elemento de tu web </a></li>
+	                  <li>  <a href="6.html">Cómo y dónde añadir código CSS para definir y modificar estilos de tu web </a></li>
+	                  <li>  <a href="7.html">Cómo es una hoja de estilos CSS </a></li>
+	                  <li>  <a href="8.html">Códigos CSS más usados </a></li>
+	                  <li>  <a href="9.html">Códigos CSS para mejorar tu web </a></li>
+
+   </div>
+</span>
+</div>
+</div>
+
+
+	</font>
+</h1>
+</aside>
+<article></article>
+<aside id="beid">
+<div class="slider">
+	<ul>
+		<li><img src="imagen1.JPG" width:300%; height:200px;></img>
+		<li><img src="imagen2.JPG" width:300%; height:250px;></img>
+		<li><img src="imagen3.JPG" width:300%; height:250px;></img>
+		<li><img src="imagen4.JPG" width:300%; height:250px;></img>
+		<li><img src="imagen5.PNG" width:300%; height:250px;></img>
+		<li><img src="imagen6.JPG" width:300%; height:250px;></img>
+		
+	</ul>
+</div>
+</aside>
+
+</header>
+</body>
+<nav></nav>
+<main>
+<body background-color: black; marginwidth="50">
+<h1 aling="center">
+    <font color="black" size="6" face"Britannic Bold">
+	<center> 
+	<h1><strong>Conceptos básicos de CSS</strong></h1></center>
+	<p><strong>Qué es un selector y tipos
+
+Un selector es el nombre que tiene un determinado elemento dentro del código de tu web. Conociendo el nombre del selector puedes modificar ese determinado elemento a tu antojo. Hay dos tipos de selectores: identificadores y clases.</strong>
+	<p><strong>Un identificador es el nombre de un elemento concreto que no se repite más que una vez en toda la web. Es un nombre único, y aplicándole una modificación vas a modificar únicamente este elemento. Los identificadores se definen en la hoja de estilos CSS con # (almohadilla), y dentro del HTML aparecen escritos así: id=»nombre del identificador».</strong>
+	<p><strong>Una clase es el nombre de una regla que se repite en varios sitios de tu web. Por ejemplo, puedes tener una clase llamada .negro que puedes aplicar tanto a textos como a botones para que se pongan de este color. Es decir, defines un estilo genérico que puedes aplicar a cualquier elemento cuantas veces quieras. Las clases se definen en CSS con un . (punto) y dentro del código HTML se aplican así: class=»nombre de la clase».</strong>
+	<p><strong>El nombre de los selectores viene determinado por el desarrollador de la plantilla, es decir, son nombres arbitrarios elegidos por el creador del tema, aunque a menudo tienen cierta lógica. Por ejemplo, las clases para botones suelen llamarse .button, el identificados de la cabecera de la web suele llamarse #header.</strong>
+	<center><h3><strong>Qué es una propiedad</strong></h3></center>
+	<p><strong>Una propiedad es la modificación o modificaciones concretas que aplicas en la hoja de estilos CSS a un elemento de tu web mediante un selector. Por ejemplo, al selector llamado #boton (que da estilo a un tipo concreto de botón dentro de mi sitio) le puedo aplicar las siguientes propiedades de color, ancho, relleno y borde:</strong>
+	   <p> background-color: #ccc; (color de fondo gris especificado en código hexadecimal)
+   <p> color: #fff; (color del texto dentro de la caja en blanco)
+   <p> width: 100px; (ancho de 100 píxeles)
+   <p> padding: 20px; (relleno o margen interior de 20 píxeles por cada lado)
+   <p> border: 1px solid #000; (borde de color negro continuo de 1 píxel de grosor)
+   <p> border-radius: 5px; (redondeado de un ángulo de 5 píxeles en todas las esquinas de la caja)
+	
+	</font>
+</h1>
+<br>
+<article></article>
+<center><img data-ils="4" jsaction="rcuQ6b:trigger.M8vzZb;" class="rg_i Q4LuWd" jsname="Q4LuWd" data-index="104" alt="Cómo integramos los lenguajes HTML, CSS, y JavaScript?" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGQlaILWqR5krF680vBLPEI5QVqIBZ6WmZHA&amp;usqp=CAU" width="300" height="400"></center>
+</main>
+<footer></footer>
+
+</html>

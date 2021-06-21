@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Inicio</title>
+	<meta charset="utf-8">
+	<meta name="author" content="Juan Alfonso">
+	
+	<style>
+*{margin:0; padding:0;}
+html{background-color:#FF00FF;}
+
+
+
+body {width:100%;height:100%;margin:auto;
+background-color:white;}
+
+header{width:100%;height:100%;float:left;background-color:#000080;}
+
+aside#baner{width:55%; height:290px;float:left; background-color:red;}
+
+aside#beid{width:45%;height:290px;float:right;background-color:#00ff00;}
+
+nav{width:100%;height:200px;background-color:#ff00ff;}
+
+main{width:100%;height:100%;background-color:#00ffff;}
+ul, ol {
+     list-style: none;
+	}
+
+
+.slider {
+	margin: auto;
+	overflow: hidden;
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 600%;
+	height: 100%;
+	animation: animaciones 20s infinite alternate;
+}
+
+.slider li {
+	list-style: none;
+	width: 200%;
+	height: 450%
+}
+
+.slider img {
+	width: 200%;
+	height:290px;
+}
+
+@keyframes animaciones {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+.date {
+display: 
+inline:block;
+}
+a {
+	text-decoration: none;
+	outline: none;
+}
+nav {
+     text-decoration: none;
+	 }
+
+a:hover {
+	text-decoration: underline;
+}
+
+
+.navbar {
+	background: blue;
+}
+
+.navbar a {
+	color: red;
+	display: underline-block;
+	padding: 20px;
+	width: 100%;
+	text-align: center;
+	color: #000;
+	transition: .3s ease-out all;
+}
+
+.navbar a:hover {
+	background: red;
+	color: #fff;
+	text-decoration: none;
+}
+
+.contenedor {
+	max-width: 1000px;
+	width: 90%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.contenedor-imagen {
+	height: 100vh;
+}
+
+.contenedor-imagen img {
+	width: 100%;
+	height: 100%;
+	vertical-align: top;
+	object-fit: cover;
+	object-position: 0 bottom;
+}
+
+
+
+@media screen and (max-width: 900px){
+	.navbar .contenedor {
+		flex-wrap: wrap;
+		margin: 0;
+		width: 100%;
+	}
+
+	.navbar a {
+		width: auto;
+		flex: 1;
+	}
+
+	.contenedor-imagen {
+		height: 50vh;
+	}
+
+	main .contenedor {
+		flex-direction: column;
+	}
+}
+
+footer{width:100%;height:30px;background-color:blue;}
+</style>
+</head>
+
+<body>
+<header>
+<aside id="baner">
+<body background-color: black; marginwidth="50">
+<h1 aling="center">
+   <h3> <font color="black" size="24" face"Arial"></h3>
+	<center> 
+	<strong>CSS Y HTML</strong>
+	</center>
+	<div class="navbar">
+     <div class="contenedor">
+	 <span class="date">
+	 
+      <font color="blue" size="2" face"Arial
+	      <div class="menu">
+			 <a href="maquetacion.html">INICIO</a></li></div>
+			 <div ="submenu">
+			 <a href="aprendiendo.html"float:left;>Aprendiendo</a></li>
+	                  <li>  <a href="quees.html">¿Que es?</a></li>
+                      <li>  <a href="conceptos.html">Conceptos basicos</a></li>
+	                  <li>  <a href="1.html">Cómo aplicar propiedades a una clase o identificador</a></li>
+	                  <li>  <a href="2.html">Un poco de HTML</a></li>
+	                  <li>  <a href="4.html">Cómo aplicar propiedades a una etiqueta HTML </a></li>
+	                  <li>  <a href="5.html">Cómo obtener el nombre o selector de un elemento de tu web </a></li>
+	                  <li>  <a href="6.html">Cómo y dónde añadir código CSS para definir y modificar estilos de tu web </a></li>
+	                  <li>  <a href="7.html">Cómo es una hoja de estilos CSS </a></li>
+	                  <li>  <a href="8.html">Códigos CSS más usados </a></li>
+	                  <li>  <a href="9.html">Códigos CSS para mejorar tu web </a></li>
+
+   </div>
+</span>
+</div>
+</div>
+
+
+	</font>
+</h1>
+</aside>
+<article></article>
+<aside id="beid">
+<div class="slider">
+	<ul>
+		<li><img src="imagen1.JPG" width:300%; height:200px;></img>
+		<li><img src="imagen2.JPG" width:300%; height:250px;></img>
+		<li><img src="imagen3.JPG" width:300%; height:250px;></img>
+		<li><img src="imagen4.JPG" width:300%; height:250px;></img>
+		<li><img src="imagen5.PNG" width:300%; height:250px;></img>
+		<li><img src="imagen6.JPG" width:300%; height:250px;></img>
+		
+	</ul>
+</div>
+</aside>
+
+</header>
+</body>
+<nav>
+</nav>
+<main>
+<body background-color: black; marginwidth="50">
+<h1 aling="center">
+    <font color="black" size="6" face"Britannic Bold">
+	<center> 
+	<h1>De todos los códigos anteriores, voy a destacar los que te pueden resultar de más utilidad y te voy a mostrar ejemplos concretos de cómo implementarlos en tu sitio:
+
+ 
+<h2>Cómo hacer desaparecer un elemento de tu web</h2>
+
+    * display. Con la propiedad display puedes ocultar cualquier elemento de tu web. Para implementarlo, lo primero es que obtengas el nombre del selector del elemento en cuestión. Por ejemplo, si lo que quieres es quitar la fecha de los artículos del blog, lo primero es ir a cualquiera de tus artículos, ponerte encima de la fecha, clickar botón derecho e Inspeccionar.
+
+<img src="11.JPG" width:25%; height:450px;>
+
+<br>En la zona inferior se despliega el Inspector de Elementos y aparece marcada la parte de código que sirve para mostrar la fecha. Dentro de esa línea, hay un class=»date». Eso quiere decir que «date» es la clase que se aplica a la fecha para darle los estilos de letra, tamaño, color, etc.
+
+<br>Pero en este caso concreto no queremos modificar estos estilos, sino directamente eliminar la visualización de la fecha. Para ello, ve a la zona de CSS Personalizado de la plantilla (o al plugin Simple Custom CSS) y escribe lo siguiente:
+
+<p>.date {
+<p>display: none;
+<p>}
+
+<br>La clase «date» lleva un punto al inicio porque este es el modo de escribir los nombres de las clases en las hojas CSS. La orden «display: none;» significa «dejar de mostrar un elemento». Por tanto, en este caso concreto, estamos ordenando lo siguiente: todos los elementos que tengan asignada la clase «date» dejarán de mostrarse en la web.
+
+<img src="12.PNG" width:25%; height:450px;>
+<h1>Cómo cambiar el tamaño y color de una tipografía concreta de tu web</h1>
+
+   * font-size, color. ¿Y si en lugar de ocultar la fecha lo que queremos es simplemente modificar su tamaño de letra y color?
+
+<p>En ese caso, ve al CSS personalizado de la plantilla (o al plugin Simple Custom CSS) y escribe lo siguiente:
+
+<br>.date {
+<p>font-size: 36px !important;
+<p>color: #F00 !important;
+<p>}
+
+Ahora la fecha se muestra en un cuerpo de letra mayor y en color rojo.
+
+<img src="13.JPG" width:25%; height:450px;>
+
+ 
+Recuerda, ¿por qué ponemos !important?
+
+Para que las nuevas propiedades definidas «pisen» a las propiedades que trae la plantilla por defecto, ya que estamos tocando propiedades que ya vienen predefinidas en la plantilla con unos estilos concretos.
+
+ 
+¿Qué es eso de #F00 que hemos puesto en la propiedad color?
+
+Es un color (en este caso rojo) que hemos definido mediante valor hexadecimal. Este es uno de los modos más habituales de introducir un color exacto en entorno web. Con la aplicación Paletton puedes hacer pruebas y obtener valores de color hexadecimal para poner en tu web.
+
+Aquí tienes un ejemplo de paleta hexadecimal de colores:
+
+<center><img src="14.JPG" width:250px; height:450px;></img></center>
+
+ 
+ </center>
+
+<article></article>
+
+</main>
+<footer></footer>
+
+</html>
